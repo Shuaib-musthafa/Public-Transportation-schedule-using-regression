@@ -27,11 +27,12 @@ The input CSV file should have the following columns:
 ``` bash
     pip install -r requirements.txt
 ```
-## to run the code required:
+## To run the code required:
 ``` bash
     streamlit run app.py
 ```
-##Usage
+## Usage
+
 1.Upload a dataset in CSV format using the "Upload your CSV file" widget.
 2.View the model training results, including coefficients and mean squared error.
 3.Input values for the number of bus terminals, stands, and stops to make predictions.
@@ -41,20 +42,21 @@ Here’s a sample of the expected dataset structure:
 No. of buses of that type	No. of bus terminals	No. of bus stands	No. of bus stops	Type Of Bus (Ac / Non Ac)
 50	10	25	100	AC
 40	8	20	80	Non AC
-##Technologies Used
+
+## Technologies Used
 
 -Python
 -Streamlit
 -NumPy
 -Pandas
 
-##Contributing
+## Contributing
   Contributions are welcome! Please open an issue or submit a pull request for any improvements or feature requests.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 Dataset source: https://data.opencity.in/dataset/public-transport-data/resource/public-transport-accessibility-).
 
 
