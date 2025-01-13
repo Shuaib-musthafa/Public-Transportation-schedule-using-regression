@@ -44,7 +44,6 @@ No. of buses of that type	No. of bus terminals	No. of bus stands	No. of bus stop
 40	8	20	80	Non AC
 
 ## Technologies Used
-
 -Python
 -Streamlit
 -NumPy
