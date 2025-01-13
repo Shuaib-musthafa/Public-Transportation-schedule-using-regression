@@ -39,9 +39,12 @@ The input CSV file should have the following columns:
 Example Dataset
 Here’s a sample of the expected dataset structure:
 
-No. of buses of that type	No. of bus terminals	No. of bus stands	No. of bus stops	Type Of Bus (Ac / Non Ac)
-50	10	25	100	AC
-40	8	20	80	Non AC
+| City Name | Type Of Bus (Ac / Non Ac) | No. of buses of that type | No. of bus terminals | No. of bus stands | No. of bus stops |
+|-----------|---------------------------|---------------------------|-----------------------|-------------------|------------------|
+| Agartala  | AC                        | 11                        | 3                     | 6                 | 48               |
+| Agartala  | Non AC                    | 162                       | 3                     | 6                 | 48               |
+| Agra      | Non AC                    | 170                       | 20                    | 5                 | 30               |
+
 
 ## Technologies Used
 -Python
